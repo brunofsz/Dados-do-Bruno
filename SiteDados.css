@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.dados {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+@keyframes rola {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+.rolar {
+  animation: rola 1s;
+}
+.dados:hover {
+  background-color: transparent;
+  border: solid 2px white;
+  color: white;
+  cursor: pointer;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.h1 {
+  color: white;
+}
+input {
+  width: 100px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+input:hover {
+  background-color: transparent;
+  border: solid 2px white;
+  color: white;
+  cursor: pointer;
+}
+.total {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
