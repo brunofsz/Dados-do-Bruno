@@ -46,10 +46,13 @@ h1 {
 input {
   width: 100px;
   color: black;
+  border: solid 2px white;
   background-color: white;
   border-radius: 10px;
+  transition: all 200ms;
 }
 input:hover {
+  rotate: 10deg;
   background-color: transparent;
   border: solid 2px white;
   color: white;
